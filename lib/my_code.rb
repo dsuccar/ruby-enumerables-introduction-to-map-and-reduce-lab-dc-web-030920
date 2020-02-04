@@ -60,10 +60,10 @@ def reduce_to_all_true(source_array)
     if source_array[i] == false
       return false
     end
-    return true
+
     i += 1
   end
-
+return true
 end
 
 
