@@ -60,11 +60,10 @@ def reduce_to_all_true(source_array)
     if source_array[i] == true
       return 'be_truthy'
     else
-      return 'be_falsy'
+      return false
     end
     i += 1
   end
-  answer
 end
 
 
