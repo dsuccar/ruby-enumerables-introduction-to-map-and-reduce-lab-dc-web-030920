@@ -60,6 +60,8 @@ def reduce_to_all_true(source_array)
   while i < source_array.length
     if source_array[i] == true
       return 'be_truthy'
+    else 
+      return false
     end
     i += 1
   end
